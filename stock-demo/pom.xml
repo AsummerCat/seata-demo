@@ -61,6 +61,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.0.1</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -97,10 +102,8 @@
                 <artifactId>seata-all</artifactId>
                 <version>1.0.0</version>
             </dependency>
-
+            <!--mybaitis整合Springboot-->
         </dependencies>
-
-
     </dependencyManagement>
 
     <build>
