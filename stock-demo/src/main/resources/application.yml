@@ -1,0 +1,12 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: stock-server
+
+
+  cloud:
+    nacos:
+      server-addr: http://localhost:8848
+

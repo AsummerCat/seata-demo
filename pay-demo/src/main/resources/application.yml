@@ -1,0 +1,12 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: pay-server
+
+
+  cloud:
+    nacos:
+      server-addr: http://localhost:8848
+
