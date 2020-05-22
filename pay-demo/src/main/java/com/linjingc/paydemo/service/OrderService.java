@@ -9,5 +9,5 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface OrderService {
 
 	@RequestMapping("/order/add")
-	 String addOrder();
+	String addOrder();
 }

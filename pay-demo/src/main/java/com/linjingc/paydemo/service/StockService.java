@@ -9,5 +9,5 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface StockService {
 
 	@RequestMapping("/stock/add")
-	 String addStock();
+	String addStock();
 }
