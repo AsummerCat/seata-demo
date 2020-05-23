@@ -18,10 +18,12 @@ public class PayService {
 	public void addPay() {
 		//开始购买
 		payDao.addPay();
-		System.out.println("下单成功");
+		System.out.println("开始购买");
 		//下单
 		orderService.addOrder();
+		System.out.println("下单成功");
 		//扣库存
 //		stockService.addStock();
+//		System.out.println("扣库存成功");
 	}
 }

@@ -12,8 +12,8 @@ spring:
     alibaba:
       seata:
         tx-service-group: my_test_tx_group
+
   datasource:
-    type: com.mysql.cj.jdbc.MysqlDataSource
     username: root
     password: 123456
     url: jdbc:mysql://127.0.0.1:3341/stock?useUnicode=true&useSSL=false&characterEncoding=utf8

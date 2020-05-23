@@ -4,8 +4,6 @@ server:
 spring:
   application:
     name: pay-server
-
-
   cloud:
     nacos:
       server-addr: http://localhost:8848
