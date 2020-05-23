@@ -1,4 +1,4 @@
-package com.linjingc.orderdemo.config;
+package com.linjingc.paydemo.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.ibatis.session.SqlSessionFactory;

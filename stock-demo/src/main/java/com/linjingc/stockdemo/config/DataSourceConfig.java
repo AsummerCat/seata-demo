@@ -1,6 +1,6 @@
 package com.linjingc.stockdemo.config;
 
-import com.zaxxer.hikari.HikariDataSource;
+import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -18,7 +18,7 @@ public class DataSourceConfig {
 	@Bean
 	@ConfigurationProperties(prefix = "spring.datasource")
 	public DataSource druidDataSource() {
-		return new HikariDataSource();
+		return new DruidDataSource();
 	}
 
 	@Bean
