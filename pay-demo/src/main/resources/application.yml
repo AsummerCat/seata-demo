@@ -11,10 +11,10 @@ spring:
       server-addr: http://localhost:8848
     alibaba:
       seata:
-        tx-service-group: order_tx_group
+        tx-service-group: my_test_tx_group
   datasource:
-    type: com.zaxxer.hikari.HikariDataSource
     username: root
     password: 123456
-    url: jdbc:mysql://127.0.0.1:3339/pay
+    url: jdbc:mysql://127.0.0.1:3339/pay?useUnicode=true&useSSL=false&characterEncoding=utf8
+    driver-class-name: com.mysql.cj.jdbc.Driver
 

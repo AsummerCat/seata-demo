@@ -11,9 +11,9 @@ spring:
       server-addr: http://localhost:8848
     alibaba:
       seata:
-        tx-service-group: order_tx_group
+        tx-service-group: my_test_tx_group
   datasource:
     type: com.mysql.cj.jdbc.MysqlDataSource
     username: root
     password: 123456
-    url: jdbc:mysql://127.0.0.1:3341/stock
+    url: jdbc:mysql://127.0.0.1:3341/stock?useUnicode=true&useSSL=false&characterEncoding=utf8

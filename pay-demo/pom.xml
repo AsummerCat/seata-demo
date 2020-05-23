@@ -71,21 +71,10 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
-<!--            <exclusions>-->
-<!--                <exclusion>-->
-<!--                    <groupId>io.seata</groupId>-->
-<!--                    <artifactId>seata-all</artifactId>-->
-<!--                </exclusion>-->
-<!--            </exclusions>-->
-
         </dependency>
 
-<!--        &lt;!&ndash;引入对应的版本&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>io.seata</groupId>-->
-<!--            <artifactId>seata-all</artifactId>-->
-<!--            <version>1.0.0</version>-->
-<!--        </dependency>-->
+        <!--引入对应的版本-->
+
     </dependencies>
 
     <dependencyManagement>
