@@ -23,7 +23,8 @@ public class PayService {
 		orderService.addOrder();
 		System.out.println("下单成功");
 		//扣库存
-//		stockService.addStock();
-//		System.out.println("扣库存成功");
+		stockService.addStock();
+
+		System.out.println("扣库存成功");
 	}
 }
